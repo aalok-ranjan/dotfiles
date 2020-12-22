@@ -74,7 +74,7 @@ recursive:
     - securitytrails
     - sublist3r
     - virustotal
-binaryedge: - 
+binaryedge: - []
 censys: - 2f2e749f-0bad-4559-a9ee-bb4d9f68bde4
 certspotter: - 33719_4SvfOMUrSKgBNuWS134B
 chaos: - 5c97a054a7106503b2fd605af22ce53cf4784d59e4005b442355b3f130af98d8
@@ -87,5 +87,5 @@ shodan: - X89rFA4YKh59rAhIzqz9ZD0ikwpCQz1s
 spyse: - 3294f754-8500-4004-8fe0-501d846c5f39
 urlscan: - f0e7f440-06c3-4c48-9f2f-5d1e3dfe7b5f
 virustotal: - f76aab9fe5b9550b5aa96e29d447ed1b5e42a18348eda5fb76a1fb824ef377f9
-zoomeye: - 
+zoomeye: - []
 subfinder-version: 2.4.3
