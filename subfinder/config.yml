@@ -74,7 +74,7 @@ recursive:
     - securitytrails
     - sublist3r
     - virustotal
-binaryedge: - []
+binaryedge: - 0bf8919b-aab9-42e4-9574-d3b639324597
 censys: - 2f2e749f-0bad-4559-a9ee-bb4d9f68bde4
 certspotter: - 33719_4SvfOMUrSKgBNuWS134B
 chaos: - 5c97a054a7106503b2fd605af22ce53cf4784d59e4005b442355b3f130af98d8
