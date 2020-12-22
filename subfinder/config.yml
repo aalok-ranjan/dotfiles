@@ -11,8 +11,9 @@ resolvers:
     - 208.67.220.220
 sources:
     - alienvault
-    - binaryedge
+    - anubis
     - bufferover
+    - cebaidu
     - certspotter
     - certspotterold
     - censys
@@ -23,6 +24,8 @@ sources:
     - intelx
     - ipv4info
     - passivetotal
+    - robtex
+    - riddler
     - securitytrails
     - shodan
     - spyse
@@ -32,9 +35,11 @@ sources:
     - virustotal
 all-sources:
     - alienvault
+    - anubis
     - archiveis
     - binaryedge
     - bufferover
+    - cebaidu
     - censys
     - certspotter
     - certspotterold
@@ -43,27 +48,32 @@ all-sources:
     - crtsh
     - dnsdumpster
     - dnsdb
-    - entrust
     - github
     - hackertarget
     - ipv4info
     - intelx
     - passivetotal
     - rapiddns
+    - riddler
     - recon
+    - robtex
     - securitytrails
     - shodan
     - sitedossier
     - spyse
     - sublist3r
+    - threatbook
     - threatcrowd
     - threatminer
     - virustotal
     - waybackarchive
+    - ximcx
     - zoomeye
 recursive:
     - alienvault
+    - binaryedge
     - bufferover
+    - cebaidu
     - certspotter
     - certspotterold
     - crtsh
@@ -74,18 +84,22 @@ recursive:
     - securitytrails
     - sublist3r
     - virustotal
-binaryedge: - 0bf8919b-aab9-42e4-9574-d3b639324597
-censys: - 2f2e749f-0bad-4559-a9ee-bb4d9f68bde4
-certspotter: - 33719_4SvfOMUrSKgBNuWS134B
-chaos: - 5c97a054a7106503b2fd605af22ce53cf4784d59e4005b442355b3f130af98d8
-dnsdb: - 1fb396fce8f9c18ce1c8b6cf1cc9d0af592f4d8ce1702a12b7a458a613141d36
-github: - 94b295a254d946c7db0b2ad49509396c420abb0f
-intelx: - d4567c28-2b95-4a59-ad99-f9c0e3045dee
-passivetotal: - 6d1d10da16100da71f63c4aa8d3c3f575dd491cf028bb38724e735c8ebdc2d45
-securitytrails: - NINlsgIqqHD1ZzIBKUaVwr29KRN9rPrk
-shodan: - X89rFA4YKh59rAhIzqz9ZD0ikwpCQz1s
-spyse: - 3294f754-8500-4004-8fe0-501d846c5f39
-urlscan: - f0e7f440-06c3-4c48-9f2f-5d1e3dfe7b5f
-virustotal: - f76aab9fe5b9550b5aa96e29d447ed1b5e42a18348eda5fb76a1fb824ef377f9
-zoomeye: - []
-subfinder-version: 2.4.3
+    - ximcx
+binaryedge: [0bf8919b-aab9-42e4-9574-d3b639324597]
+censys: [2f2e749f-0bad-4559-a9ee-bb4d9f68bde4:zVpKK4C6PrtDti9lpXbxfMkR4BKUX6wF]
+certspotter: [33719_4SvfOMUrSKgBNuWS134B]
+chaos: [5c97a054a7106503b2fd605af22ce53cf4784d59e4005b442355b3f130af98d]
+dnsdb: [1fb396fce8f9c18ce1c8b6cf1cc9d0af592f4d8ce1702a12b7a458a613141d36]
+github: [94b295a254d946c7db0b2ad49509396c420abb0f]
+intelx: [d4567c28-2b95-4a59-ad99-f9c0e3045dee]
+passivetotal: [6d1d10da16100da71f63c4aa8d3c3f575dd491cf028bb38724e735c8ebdc2d45]
+recon: [free-5bfbc4ec-af85-4682-8245-9a1ee4d]
+robtex: [w5g4R9Ekmtd6kOpAEvdf]
+securitytrails: [NINlsgIqqHD1ZzIBKUaVwr29KRN9rPrk]
+shodan: [X89rFA4YKh59rAhIzqz9ZD0ikwpCQz1s]
+spyse: [3294f754-8500-4004-8fe0-501d846c5f39]
+threatbook: []
+urlscan: [f0e7f440-06c3-4c48-9f2f-5d1e3dfe7b5f]
+virustotal: [f76aab9fe5b9550b5aa96e29d447ed1b5e42a18348eda5fb76a1fb824ef377f9]
+zoomeye: []
+subfinder-version: 2.4.5
